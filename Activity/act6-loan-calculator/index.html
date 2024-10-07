@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Loan Calculator</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <form action="" class="pt-20 px-20">
+            <label for="amt" class="font-sans text-base">Loan Amount:</label>
+            <input type="text" id="amt" class="border border-gray-300 rounded px-4 py-2 my-2 block w-full" required>
+
+            <label for="rate" class="font-sans text-base">Interest Rate (%):</label>
+            <input type="text" id="rate" class="border border-gray-300 rounded px-4 py-2 my-2 block w-full" required>
+
+            <label for="lt" class="font-sans text-base">Loan Term (years):</label>
+            <input type="text" id="lt" class="border border-gray-300 rounded px-4 py-2 my-2 block w-full" required>
+
+            <input type="submit" id="calc" class="type-submit border border-blue-800 bg-blue-500 mt-2 rounded p-2 text-white" value="Calculate">
+        </form>
+
+        <h1 class="py-5 px-20 text-5xl">Monthly Payment: <span id="mthly"></span></h1>
+
+        <script src="script.js" defer></script>
+            
+    </body>
+
+</html>

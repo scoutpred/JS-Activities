@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopping Cart</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex justify-center space-x-2 pr-2">
+        <!-- Products -->
+        <div class="w-1/4 p-5 border border-black rounded overflow-hidden m-2">
+            <h1 class="text-xl font-sans p-2">Products</h1>
+            <div class="flex-1 p-5 border border-black rounded overflow-hidden m-2">
+                <p class="text-base font-sans"><strong>Product 1</strong></p>
+                <p class="text-base font-sans">Price: $10</p>
+                <input type="button" id="p1" value="Add To Cart" class="bg-blue-500 text-white p-2 rounded">
+            </div>
+            <div class="flex-1 p-5 border border-black rounded overflow-hidden m-2">
+                <p class="text-base font-sans"><strong>Product 2</strong></p>
+                <p class="text-base font-sans">Price: $15</p>
+                <input type="button" id="p2" value="Add To Cart" class="bg-blue-500 text-white p-2 rounded">
+            </div>
+            <div class="flex-1 p-5 border border-black rounded overflow-hidden m-2">
+                <p class="text-base font-sans"><strong>Product 3</strong></p>
+                <p class="text-base font-sans">Price: $20</p>
+                <input type="button" id="p3" value="Add To Cart" class="bg-blue-500 text-white p-2 rounded">
+            </div>
+        </div>
+
+        <!-- Shopping Cart -->
+        <div class="w-3/4 p-5 border border-black rounded overflow-hidden m-2">
+            <h1 class="text-xl font-sans p-2">Shopping Cart</h1>
+            <p class="text-base font-sans p-2">Total (in USD): <span id="totalprice">0</span></p>
+            <input type="button" id="co" value="Checkout" class="bg-blue-500 text-white p-2 ml-1 rounded">
+            <p class="text-base font-sans p-2"><strong>Your Cart</strong></p>
+            <ul class="text-base font-sans p-10" id="items">
+                
+            </ul>
+            
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
