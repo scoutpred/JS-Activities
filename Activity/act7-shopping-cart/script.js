@@ -1,3 +1,5 @@
+//Could add a bit of dynamic to this. Can be optimized
+
 //Work when everything is loaded.
 
 document.addEventListener("DOMContentLoaded", () => {
